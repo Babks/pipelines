@@ -1,0 +1,44 @@
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Frontend dependencies and generated files
+node_modules/
+frontend/dist/
+*.tsbuildinfo
+
+# Test output
+test-results/
+playwright-report/
+coverage/
+
+# Local runtime data and credentials
+.local/
+.env
+.env.*
+!.env.example
+*.sqlite
+*.sqlite3
+*.sqlite3-*
+*.db
+*.log
+
+# Desktop build output
+release/
+build/
+*.spec
+
+# Editor and operating system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+Desktop.ini
+~$*

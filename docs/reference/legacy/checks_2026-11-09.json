@@ -1,0 +1,97 @@
+{
+  "0936a617-4998-43d9-8020-97b5606c3f69.xlsx": {
+    "weld": {
+      "rows": 5,
+      "types": {
+        "CHWT": 1,
+        "None": 4
+      }
+    },
+    "anom": {
+      "rows": 62,
+      "types": {
+        "CORR": 61,
+        "ARTD": 1
+      }
+    },
+    "legacy_summary": {
+      "corr_total": 61,
+      "single_defects": 40,
+      "interaction_groups": 10,
+      "defects_in_groups": 21,
+      "undetermined_defects": 0,
+      "calculation_objects": 50,
+      "failed_objects": 0,
+      "danger_A": 1,
+      "danger_B": 0,
+      "danger_C": 60,
+      "undetermined_pairs": 0
+    },
+    "sample": {
+      "n_defekta": "91199328",
+      "excel_row": 31,
+      "n_tube": 1364,
+      "mode": "single_6",
+      "group_id": null,
+      "p_r_mpa": 13.59506317869789,
+      "p_allow_mpa": 9.385702755021047,
+      "pressure_mpa": 5.39,
+      "passes": true,
+      "danger": "C",
+      "K_TZ": 1.2987341730014295,
+      "p_r_forecast_3y_mpa": 13.442057648006823,
+      "tno_years": 22.75853899897467
+    }
+  },
+  "c97310d0-f636-4aeb-ab6f-9eeb7e05df57.xlsx": {
+    "anom": {
+      "rows": 14209,
+      "types": {
+        "DENT": 375,
+        "CORR": 33,
+        "None": 13801
+      }
+    },
+    "weld": {
+      "rows": 16090,
+      "types": {
+        "None": 15282,
+        "CHWT": 808
+      }
+    },
+    "legacy_summary": {
+      "corr_total": 33,
+      "single_defects": 26,
+      "interaction_groups": 3,
+      "defects_in_groups": 7,
+      "undetermined_defects": 0,
+      "calculation_objects": 29,
+      "failed_objects": 0,
+      "danger_A": 1,
+      "danger_B": 0,
+      "danger_C": 32,
+      "undetermined_pairs": 0
+    },
+    "sample": null
+  },
+  "single_examples": [
+    {
+      "Q": 1.9795406044698978,
+      "p_cr_mpa": 13.133626165445552,
+      "R1_mpa": 359.2672998643147,
+      "gamma": 0.9773427751340735,
+      "K_STO": 1.5846635756023872,
+      "p_allow_mpa": 8.2879586352914,
+      "passes": true
+    },
+    {
+      "Q": 3.560101686606745,
+      "p_cr_mpa": 11.13040339548519,
+      "R1_mpa": 359.2672998643147,
+      "gamma": 0.9773427751340735,
+      "K_STO": 1.5846635756023872,
+      "p_allow_mpa": 7.023827370585032,
+      "passes": false
+    }
+  ]
+}
